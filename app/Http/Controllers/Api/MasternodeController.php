@@ -25,10 +25,10 @@ class MasternodeController extends Controller
      * Display the specified resource.
      *
      * @param  \App\Masternode $masternode
-     * @return \Illuminate\Http\Response
+     * @return Masternode
      */
-    public function show(Masternode $masternode)
+    public function show(Masternode $masternode): Masternode
     {
-        //
+        return $masternode;
     }
 }

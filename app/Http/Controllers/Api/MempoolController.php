@@ -25,10 +25,10 @@ class MempoolController extends Controller
      * Display the specified resource.
      *
      * @param  \App\Mempool $mempool
-     * @return \Illuminate\Http\Response
+     * @return Mempool
      */
-    public function show(Mempool $mempool)
+    public function show(Mempool $mempool): Mempool
     {
-        //
+        return $mempool;
     }
 }

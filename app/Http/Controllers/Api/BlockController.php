@@ -25,10 +25,10 @@ class BlockController extends Controller
      * Display the specified resource.
      *
      * @param  \App\Block $block
-     * @return \Illuminate\Http\Response
+     * @return Block
      */
-    public function show(Block $block)
+    public function show(Block $block): Block
     {
-        //
+        return $block;
     }
 }

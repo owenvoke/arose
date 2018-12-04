@@ -24,10 +24,10 @@ class AccountController extends Controller
      * Display the specified resource.
      *
      * @param  \App\Account $account
-     * @return \Illuminate\Http\Response
+     * @return Account
      */
-    public function show(Account $account)
+    public function show(Account $account): Account
     {
-        //
+        return $account;
     }
 }

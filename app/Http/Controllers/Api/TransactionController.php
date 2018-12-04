@@ -25,10 +25,10 @@ class TransactionController extends Controller
      * Display the specified resource.
      *
      * @param  \App\Transaction $transaction
-     * @return \Illuminate\Http\Response
+     * @return Transaction
      */
-    public function show(Transaction $transaction)
+    public function show(Transaction $transaction): Transaction
     {
-        //
+        return $transaction;
     }
 }
