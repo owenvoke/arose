@@ -30,11 +30,13 @@ class Mempool extends Model
     protected $table = 'mempool';
 
     /** @var array */
+    protected $dates = ['date'];
+
+    /** @var array */
     protected $casts = [
         'height' => 'int',
         'val' => 'float',
         'fee' => 'float',
         'version' => 'int',
-        'date' => 'timestamp',
     ];
 }

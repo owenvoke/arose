@@ -24,9 +24,11 @@ class Block extends Model
     public $incrementing = false;
 
     /** @var array */
+    protected $dates = ['date'];
+
+    /** @var array */
     protected $casts = [
         'height' => 'int',
-        'date' => 'timestamp',
         'difficulty' => 'int',
         'transactions' => 'int',
     ];

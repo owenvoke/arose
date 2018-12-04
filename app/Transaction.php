@@ -26,11 +26,13 @@ class Transaction extends Model
     public $incrementing = false;
 
     /** @var array */
+    protected $dates = ['date'];
+
+    /** @var array */
     protected $casts = [
         'height' => 'int',
         'val' => 'float',
         'fee' => 'float',
         'version' => 'int',
-        'date' => 'timestamp',
     ];
 }
