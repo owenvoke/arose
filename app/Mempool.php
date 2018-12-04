@@ -23,6 +23,9 @@ use Illuminate\Support\Carbon;
  */
 class Mempool extends Model
 {
+    /** @var bool */
+    public $incrementing = false;
+
     /** @var string */
     protected $table = 'mempool';
 

@@ -15,6 +15,9 @@ use Illuminate\Database\Eloquent\Model;
  */
 class Account extends Model
 {
+    /** @var bool */
+    public $incrementing = false;
+
     /** @var array */
     protected $casts = [
         'balance' => 'float',

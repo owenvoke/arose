@@ -17,6 +17,12 @@ use Illuminate\Database\Eloquent\Model;
  */
 class Masternode extends Model
 {
+    /** @var bool */
+    public $incrementing = false;
+
+    /** @var string */
+    protected $primaryKey = 'public_key';
+
     /** @var string */
     protected $table = 'masternode';
 

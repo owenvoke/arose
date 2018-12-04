@@ -20,6 +20,9 @@ use Illuminate\Support\Carbon;
  */
 class Block extends Model
 {
+    /** @var bool */
+    public $incrementing = false;
+
     /** @var array */
     protected $casts = [
         'height' => 'int',
