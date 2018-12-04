@@ -4,7 +4,6 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use App\Masternode;
-use Illuminate\Http\Request;
 
 /**
  * Class MasternodeController

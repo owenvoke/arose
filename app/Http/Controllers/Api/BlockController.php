@@ -4,7 +4,6 @@ namespace App\Http\Controllers\Api;
 
 use App\Block;
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
 
 /**
  * Class BlockController
