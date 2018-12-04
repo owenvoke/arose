@@ -14,7 +14,7 @@ use Illuminate\Support\Carbon;
  * @property-read Carbon $date
  * @property-read string $nonce
  * @property-read string $signature
- * @property-read string $difficulty
+ * @property-read int    $difficulty
  * @property-read string $argon
  * @property-read int    $transactions
  */
@@ -26,7 +26,8 @@ class Block extends Model
     /** @var array */
     protected $casts = [
         'height' => 'int',
-        'date' => 'date',
+        'date' => 'timestamp',
+        'difficulty' => 'int',
         'transactions' => 'int',
     ];
 }

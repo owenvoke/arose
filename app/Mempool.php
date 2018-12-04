@@ -35,6 +35,6 @@ class Mempool extends Model
         'val' => 'float',
         'fee' => 'float',
         'version' => 'int',
-        'date' => 'date',
+        'date' => 'timestamp',
     ];
 }
