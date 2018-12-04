@@ -13,8 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::resource('accounts', 'Api\AccountController');
-Route::resource('blocks', 'Api\BlockController');
-Route::resource('masternodes', 'Api\MasternodeController');
-Route::resource('mempools', 'Api\MempoolController');
-Route::resource('transactions', 'Api\TransactionController');
+Route::resource('accounts', 'Api\AccountController')->only(['index', 'show']);
+Route::resource('blocks', 'Api\BlockController')->only(['index', 'show']);
+Route::resource('masternodes', 'Api\MasternodeController')->only(['index', 'show']);
+Route::resource('mempools', 'Api\MempoolController')->only(['index', 'show']);
+Route::resource('transactions', 'Api\TransactionController')->only(['index', 'show']);

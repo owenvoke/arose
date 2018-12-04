@@ -22,67 +22,12 @@ class MasternodeController extends Controller
     }
 
     /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
-    {
-        //
-    }
-
-    /**
      * Display the specified resource.
      *
-     * @param  \App\Masternode  $masternode
+     * @param  \App\Masternode $masternode
      * @return \Illuminate\Http\Response
      */
     public function show(Masternode $masternode)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Masternode  $masternode
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(Masternode $masternode)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Masternode  $masternode
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, Masternode $masternode)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Masternode  $masternode
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy(Masternode $masternode)
     {
         //
     }
