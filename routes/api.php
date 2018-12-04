@@ -1,6 +1,6 @@
 <?php
 
-use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +13,8 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+Route::resource('accounts', 'Api\AccountController');
+Route::resource('blocks', 'Api\BlockController');
+Route::resource('masternodes', 'Api\MasternodeController');
+Route::resource('mempools', 'Api\MempoolController');
+Route::resource('transactions', 'Api\TransactionController');
