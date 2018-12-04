@@ -6,6 +6,9 @@ use App\Http\Controllers\Controller;
 use App\Mempool;
 use Illuminate\Http\Request;
 
+/**
+ * Class MempoolController
+ */
 class MempoolController extends Controller
 {
     /**

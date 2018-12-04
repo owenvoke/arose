@@ -6,6 +6,9 @@ use App\Account;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
+/**
+ * Class AccountController
+ */
 class AccountController extends Controller
 {
     /**

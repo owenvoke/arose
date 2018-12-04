@@ -6,6 +6,9 @@ use App\Block;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
+/**
+ * Class BlockController
+ */
 class BlockController extends Controller
 {
     /**

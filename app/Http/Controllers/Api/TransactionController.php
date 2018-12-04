@@ -6,6 +6,9 @@ use App\Http\Controllers\Controller;
 use App\Transaction;
 use Illuminate\Http\Request;
 
+/**
+ * Class TransactionController
+ */
 class TransactionController extends Controller
 {
     /**

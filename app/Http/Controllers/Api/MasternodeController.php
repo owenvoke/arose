@@ -6,6 +6,9 @@ use App\Http\Controllers\Controller;
 use App\Masternode;
 use Illuminate\Http\Request;
 
+/**
+ * Class MasternodeController
+ */
 class MasternodeController extends Controller
 {
     /**
